@@ -14,7 +14,7 @@ while True:
     if user_inp == 1:
         with open("data.txt", "r") as f:
             data = f.read()
-        print(data)
+        print(f"Your Password: {data}")
 
     if user_inp == 2:
         add = input("Enter Password: ")
